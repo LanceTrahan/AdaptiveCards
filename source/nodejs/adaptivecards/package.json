@@ -15,14 +15,16 @@
 	"main": "lib/adaptivecards.js",
 	"types": "lib/adaptivecards.d.ts",
 	"sideEffects": [
+		"./src/adaptivecards.ts",
 		"./src/card-elements.ts",
 		"./src/table.ts",
 		"./src/carousel.ts",
+		"./lib/adaptivecards.js",
 		"./lib/card-elements.js",
 		"./lib/table.js",
 		"./lib/carousel.js",
-		"*.css",
-		"*.scss"
+		"**/*.css",
+		"**/*.scss"
 	],
 	"files": [
 		"lib",
